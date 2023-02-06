@@ -1,0 +1,39 @@
+.slider_title {
+    color: #cf316e;
+    text-decoration: line-through;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 1rem;
+    letter-spacing: 10px;
+}
+
+.swiper {
+    width: 65%;
+    height: auto;
+    margin: 1rem;
+    z-index: 1;
+  }
+  
+  img {
+    width: 50%;
+    border-radius: 50%;
+  }
+  
+  .products_slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product_slide {
+    position: relative;
+    width: calc(100% / 4);
+    height: 100%;
+    margin: 1rem;
+    padding: 1rem;
+  
+    border-radius: 1rem;
+  
+    color:  #cf316e;
+    background-color: #e6e3e3;
+  }

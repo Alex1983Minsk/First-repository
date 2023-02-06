@@ -1,0 +1,27 @@
+body {
+    background-color: $white;
+}
+
+.section{
+    text-align: center;
+    margin: 0 auto;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: all .3s;
+    color: $link-hover;
+}
+
+main {
+    margin-top: 200px;
+}
+
+
+
